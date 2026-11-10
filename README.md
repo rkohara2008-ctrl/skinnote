@@ -7,12 +7,12 @@
 - `index.html`：網站首頁
 - `style.css`：共用樣式與響應式設計
 - `script.js`：分類、搜尋與文章閱讀功能
-- `content/articles.js`：文章資料（目前 5 篇）
+- `articles.js`：文章資料（目前 5 篇）
 - `AGENTS.md`：AI 協作與新增文章規範
 
 ## 如何新增文章
 
-先閱讀 `AGENTS.md`，接著在 `content/articles.js` 的 `window.SKINNOTE_ARTICLES` 陣列中加入符合格式的物件。新文章會自動顯示於首頁，並可透過分類與搜尋找到，不必修改 HTML。
+先閱讀 `AGENTS.md`，接著在 `articles.js` 的 `window.SKINNOTE_ARTICLES` 陣列中加入符合格式的物件。新文章會自動顯示於首頁，並可透過分類與搜尋找到，不必修改 HTML。
 
 ## 本機預覽
 
