@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="SkinNote：適合初學者的繁體中文保養知識筆記。">
+  <title>SkinNote｜保養知識筆記</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="content/articles.js" defer></script>
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="topbar"><a class="logo" href="#home">✿ SkinNote<span>.</span></a><a class="toplink" href="#articles">探索筆記 ↗</a></header>
+  <main id="home">
+    <section class="hero"><div class="hero-inner"><span class="eyebrow">YOUR LITTLE SKINCARE JOURNAL</span><h1>把保養變成<br><em>溫柔的日常。</em></h1><p>從肌膚類型到保養成分，用簡單好懂的方式，慢慢找到適合自己的保養節奏。</p><a class="primary" href="#articles">開始閱讀 <span>↗</span></a></div><div class="hero-art" aria-hidden="true"><div class="orb orb-one"></div><div class="orb orb-two"></div><div class="bottle"><span>skin<br>note.</span></div><span class="sparkle">✳</span></div></section>
+    <section id="articles" class="library"><div class="section-head"><div><span class="eyebrow">THE NOTEBOOK</span><h2>保養知識小筆記 <span>✳</span></h2><p>挑一個感興趣的主題，從今天開始認識保養。</p></div><span class="count" id="count"></span></div><div class="controls"><div class="filters" id="filters" aria-label="文章分類"></div><label class="search"><span>⌕</span><input id="search" type="search" placeholder="搜尋保養主題…" aria-label="搜尋文章"></label></div><div class="cards" id="cards"></div><p class="empty" id="empty" hidden>找不到符合的文章，試試其他關鍵字吧！</p></section>
+    <section class="about"><span>♡</span><div><h2>一點一點，認識自己的肌膚。</h2><p>保養沒有唯一的標準答案。SkinNote 希望陪你從基礎開始，找到舒服又適合自己的方式。</p></div></section>
+  </main>
+  <footer><span>✿ SkinNote.</span><p>本網站僅提供一般保養知識，不取代專業醫療建議。</p><small>Made with care ♡</small></footer>
+  <dialog id="article-dialog" aria-labelledby="dialog-title"><div class="dialog-content"><button class="close" id="close-dialog" aria-label="關閉文章">✕</button><span class="eyebrow" id="dialog-category"></span><div class="dialog-emoji" id="dialog-emoji"></div><h2 id="dialog-title"></h2><p class="dialog-summary" id="dialog-summary"></p><div id="dialog-sections"></div><div class="tip" id="dialog-tip"></div><button class="back" id="back-button">← 返回所有筆記</button></div></dialog>
+</body>
+</html>
